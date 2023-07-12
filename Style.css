@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.container{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one{
+    background-color:aliceblue;
+    width: 900px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 40px;
+    justify-content: center; 
+    text-align: center;
+} 
+
+.card{
+    background-color: aliceblue;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-img{
+    width: 280px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    margin:10px;
+    
+}
+
+.place-1{
+    background-image: url(./palace.JPG);
+}
+
+.place-2{
+    background-image: url(./golgumbaz.JPG);
+}
+
+.place-3{
+    background-image: url(./murudeshwara.JPG);
+}
+
+.place-4{
+    background-image: url(./hampi.JPG);
+}
+
+.card h1{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+.card a {
+    background-color: skyblue;
+    color: black;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
